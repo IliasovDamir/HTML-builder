@@ -44,3 +44,4 @@ async function appendFile() {
 writeFile()
 .then(() => appendFile())
 .catch((err) => console.log(err))
+
